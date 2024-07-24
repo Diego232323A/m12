@@ -1,0 +1,17 @@
+{
+    "name": "delete_user",
+    "version": "1.0.0",
+    "description": "Microservice to delete a user from MongoDB",
+    "main": "deleteUser.js",
+    "scripts": {
+      "start": "node deleteUser.js"
+    },
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1",
+      "mongoose": "^5.12.7"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
